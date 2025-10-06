@@ -18,4 +18,12 @@ docker compose up --build
 2. Verificar:
 - Abrir http://localhost:3000/usuarios en tu navegador. Deberías ver una lista vacia.
 
-
+3. Envio de datos:
+- Mediante Postman o cualquier otra herramienta, enviar datos de usuario con el método POST bajo el siguiente formato:
+```
+{
+  "name": "usuario",
+  "email": "usuario@gmail.com ",
+  "password": "1234"
+}
+```
