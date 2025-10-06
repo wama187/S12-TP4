@@ -23,7 +23,8 @@ docker compose up --build
 ```
 {
   "name": "usuario",
-  "email": "usuario@gmail.com ",
+  "email": "usuario@gmail.com",
   "password": "1234"
 }
 ```
+
